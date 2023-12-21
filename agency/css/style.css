@@ -419,10 +419,10 @@ blockquote > cite {
 }
 
 .gradient-bg1 {
-  background: #3264f5;
-  background: -moz-linear-gradient(left, #3264f5 2%, #7004bc 82%);
-  background: -webkit-linear-gradient(left, #3264f5 2%, #7004bc 82%);
-  background: linear-gradient(to right, #3264f5 2%, #7004bc 82%);
+  background: #A8EFFF;
+  background: -moz-linear-gradient(left, #CEFFBD 2%, #A8EFFF 82%);
+  background: -webkit-linear-gradient(left, #CEFFBD 2%, #A8EFFF 82%);
+  background: linear-gradient(to right, #CEFFBD 2%, #A8EFFF 82%);
 }
 
 .gradient-bg2 {
