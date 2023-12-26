@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="../vendor/css/swiper.min.css" />
     <link rel="stylesheet" href="../vendor/css/cubeportfolio.min.css" />
     <!-- Style Sheet -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="../agency/css/style.css" />
   </head>
 
   <body data-spy="scroll" data-target=".navbar" data-offset="90">
@@ -35,285 +35,39 @@
     </div>
     <!--/Preloader -->
 
-    <!--Header Start-->
-    <header class="cursor-light">
-      <!--Navigation-->
-      <nav
-        class="navbar navbar-top-default navbar-expand-lg navbar-gradient nav-icon alt-font"
-      >
-        <div class="container">
-          <a href="../index-agency.html" title="Logo" class="logo link">
-            <!--Logo Default-->
-            <img
-              src="img/logo-white.png"
-              alt="logo"
-              class="logo-dark default"
-            />
-          </a>
-
-          <!--Nav Links-->
-          <div class="collapse navbar-collapse" id="agency">
-            <div class="navbar-nav ml-auto">
-              <a class="nav-link link" href="../index-agency.html#home">Home</a>
-              <a class="nav-link link" href="../index-agency.html#about-us"
-                >About Us</a
-              >
-              <a class="nav-link link" href="../index-agency.html#portfolio"
-                >Our Work</a
-              >
-              <a class="nav-link link" href="../index-agency.html#clients"
-                >Clients</a
-              >
-              <a class="nav-link link active" href="../index-agency.html#blog"
-                >Our Blog</a
-              >
-              <a class="nav-link link" href="../index-agency.html#contact"
-                >Contact Us</a
-              >
-              <span class="menu-line"
-                ><i class="fa fa-angle-down" aria-hidden="true"></i
-              ></span>
-            </div>
-            <a
-              data-fancybox
-              data-animation-duration="500"
-              data-src="#animatedModal"
-              href="javascript:void(0);"
-              class="btn btn-medium btn-rounded btn-transparent-white btn-hvr-white ml-3"
-              >Get A Quote
-              <div class="btn-hvr-setting">
-                <ul class="btn-hvr-setting-inner">
-                  <li class="btn-hvr-effect"></li>
-                  <li class="btn-hvr-effect"></li>
-                  <li class="btn-hvr-effect"></li>
-                  <li class="btn-hvr-effect"></li>
-                </ul>
-              </div>
-            </a>
-          </div>
-
-          <!--Menu Button-->
-          <button class="fullnav-toggler link" type="button" id="full-menu-1">
-            <span class="line"></span>
-            <span class="line"></span>
-            <span class="line"></span>
-          </button>
-
-          <!--Slider Social-->
-          <div class="slider-social">
-            <ul class="list-unstyled">
-              <li class="animated-wrap">
-                <a class="animated-element" href="javascript:void(0);"
-                  ><i class="fab fa-facebook-f" aria-hidden="true"></i
-                ></a>
-              </li>
-              <li class="animated-wrap">
-                <a class="animated-element" href="javascript:void(0);"
-                  ><i class="fab fa-instagram" aria-hidden="true"></i
-                ></a>
-              </li>
-              <li class="animated-wrap">
-                <a class="animated-element" href="javascript:void(0);"
-                  ><i class="fab fa-twitter" aria-hidden="true"></i
-                ></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-      <!--Full menu-->
-      <div class="nav-holder alt style-2 alt-font">
-        <!--Menu Button-->
-        <button class="fullnav-close link" type="button">
-          <span class="line"></span>
-          <span class="line"></span>
-          <span class="line"></span>
-        </button>
-
-        <div class="container">
-          <div class="shape-left">
-            <nav class="navbar full-menu-navigation left">
-              <ul class="list-unstyled">
-                <li>
-                  <a href="../index-agency.html#home" class="link">
-                    <span class="anchor-circle"></span>
-                    <span class="anchor-text">Home</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="../index-agency.html#about-us" class="link">
-                    <span class="anchor-circle"></span>
-                    <span class="anchor-text">About</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="../index-agency.html#portfolio" class="link">
-                    <span class="anchor-circle"></span>
-                    <span class="anchor-text">Work</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="../index-agency.html#clients" class="link">
-                    <span class="anchor-circle"></span>
-                    <span class="anchor-text">Clients</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="../index-agency.html#blog" class="link">
-                    <span class="anchor-circle"></span>
-                    <span class="anchor-text">Blog</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="../index-agency.html#contact" class="link">
-                    <span class="anchor-circle"></span>
-                    <span class="anchor-text">Contact</span>
-                  </a>
-                </li>
-              </ul>
-              <span class="full-menu-dot" style="transform: scale(0)"></span>
-            </nav>
-            <img src="img/shape-8.png" alt="shape" />
-          </div>
-          <div class="shape-right">
-            <div class="full-menu-detail hide-cursor">
-              <h6 class="title">Press Contact</h6>
-              <p><i class="fas fa-user-alt"></i>David Warrior</p>
-              <p><i class="fas fa-mobile-alt"></i>+97 53 49 24 78 36</p>
-              <p><i class="fas fa-envelope"></i>contact@megaone.com</p>
-            </div>
-            <img src="img/shape-7.png" alt="shape" />
-          </div>
-        </div>
-      </div>
-
-      <!--Get Quote Model Popup-->
-      <div id="animatedModal" class="animated-modal hidden quote-content">
-        <!--Heading-->
-        <div class="heading-area pb-2 mx-570">
-          <span class="sub-title">We are megaone company</span>
-          <h2 class="title mt-2">
-            Lets start your
-            <span class="alt-color js-rotating">project, website</span>
-          </h2>
-        </div>
-        <!--Contact Form-->
-        <form class="contact-form">
-          <div class="row">
-            <!--Result-->
-            <div class="col-12" id="quote_result"></div>
-
-            <!--Left Column-->
-            <div class="col-md-6">
-              <div class="form-group">
-                <input
-                  class="form-control"
-                  type="text"
-                  placeholder="Name"
-                  required=""
-                  id="quote_name"
-                  name="quote_name"
-                />
-              </div>
-              <div class="form-group">
-                <input
-                  class="form-control"
-                  type="text"
-                  placeholder="Contact #"
-                  required=""
-                  id="quote_contact"
-                  name="quote_contact"
-                />
-              </div>
-              <div class="form-group">
-                <input
-                  class="form-control"
-                  type="text"
-                  placeholder="Project type"
-                  required=""
-                  id="quote_type"
-                  name="quote_type"
-                />
-              </div>
-            </div>
-
-            <!--Right Column-->
-            <div class="col-md-6">
-              <div class="form-group">
-                <input
-                  class="form-control"
-                  type="email"
-                  placeholder="Email"
-                  required=""
-                  id="quote_email"
-                  name="quote_email"
-                />
-              </div>
-              <div class="form-group">
-                <input
-                  class="form-control"
-                  type="text"
-                  placeholder="City / Country"
-                  required=""
-                  id="quote_address"
-                  name="quote_address"
-                />
-              </div>
-              <div class="form-group">
-                <input
-                  class="form-control"
-                  type="text"
-                  placeholder="Budget"
-                  required=""
-                  id="quote_budget"
-                  name="quote_budget"
-                />
-              </div>
-            </div>
-
-            <!--Full Column-->
-            <div class="col-md-12">
-              <div class="form-group">
-                <textarea
-                  class="form-control"
-                  placeholder="Please explain your project in detail."
-                  id="quote_message"
-                  name="quote_message"
-                ></textarea>
-              </div>
-            </div>
-
-            <!--Button-->
-            <div class="col-md-12">
-              <div class="form-check">
-                <label class="checkbox-lable"
-                  >Contact by phone ins preffered
-                  <input type="checkbox" />
-                  <span class="checkmark"></span>
-                </label>
-              </div>
-
-              <a
-                href="javascript:void(0);"
-                id="quote_submit_btn"
-                class="btn btn-large btn-rounded btn-blue btn-hvr-pink"
-                >Send Message
-                <div class="btn-hvr-setting">
-                  <ul class="btn-hvr-setting-inner">
-                    <li class="btn-hvr-effect"></li>
-                    <li class="btn-hvr-effect"></li>
-                    <li class="btn-hvr-effect"></li>
-                    <li class="btn-hvr-effect"></li>
-                  </ul>
-                </div>
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="main-nav">
+              <!-- ***** Logo Start ***** -->
+              <a href="#" class="logo">
+                <img src="../agency/img/logo.png" alt="STEM INSTITUTION" />
               </a>
-            </div>
+              <!-- ***** Logo End ***** -->
+              <!-- ***** Menu Start ***** -->
+              <ul class="nav">
+                <li>
+                  <a href="../index-agency.html" class="active">Home</a>
+                </li>
+                <li><a href="#about">About</a></li>
+                <li>
+                  <a href="#">Programmes</a>
+                </li>
+                <li><a href="blog-list.html">Blog Entries</a></li>
+                <li><a href="#contact-us">Contact Us</a></li>
+              </ul>
+              <a class="menu-trigger">
+                <span>Menu</span>
+              </a>
+              <!-- ***** Menu End ***** -->
+            </nav>
           </div>
-        </form>
+        </div>
       </div>
     </header>
-    <!--Header End-->
+    <!-- ***** Header Area End ***** -->
 
     <!--Banner Start-->
     <section class="page-title cursor-light">
@@ -577,8 +331,8 @@
           <!--Text-->
           <div class="col-md-6 text-md-right">
             <p class="company-about fadeIn">
-              © 2020 MegaOne. Made With Love By
-              <a href="javascript:void(0);">Themesindustry</a>
+              © 2023
+              <a href="javascript:void(0);">STEM INSTITUTION</a>
             </p>
           </div>
         </div>
