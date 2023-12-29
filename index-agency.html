@@ -63,12 +63,12 @@
                 <li>
                   <a href="../index-agency.html" class="active">Home</a>
                 </li>
-                <li><a href="#about">About</a></li>
+                <li><a href="./agency/about.html">About</a></li>
                 <li>
                   <a href="#">Programmes</a>
                 </li>
                 <li><a href="blog-list.html">Blog Entries</a></li>
-                <li><a href="#contact-us">Contact Us</a></li>
+                <li><a href="./agency/contact.html">Contact Us</a></li>
               </ul>
               <a class="menu-trigger">
                 <span>Menu</span>
@@ -1407,7 +1407,7 @@
     <!-- ***** Blog End ***** -->
 
     <!--Client Map-->
-    <section class="gradient-bg2" id="client">
+    <section class="gradient-bg1" id="client">
       <h2 class="d-none">hidden</h2>
       <div class="container">
         <div class="row">
@@ -1416,19 +1416,19 @@
             <div class="owl-carousel partners-slider">
               <!--Item-->
               <div class="logo-item">
-                <img alt="client-logo" src="agency/img/client-1.png" />
+                <img alt="client-logo" src="./agency/img/icons/hiwonder.png" />
               </div>
               <!--Item-->
               <div class="logo-item">
-                <img alt="client-logo" src="agency/img/client-2.png" />
+                <img alt="client-logo" src="/agency/img/icons/makeblock.png" />
               </div>
               <!--Item-->
               <div class="logo-item">
-                <img alt="client-logo" src="agency/img/client-3.png" />
+                <img alt="client-logo" src="./agency/img/icons/matatalab.png" />
               </div>
               <!--Item-->
               <div class="logo-item">
-                <img alt="client-logo" src="agency/img/client-4.png" />
+                <img alt="client-logo" src="./agency/img/icons/microbit.png" />
               </div>
             </div>
           </div>
@@ -1438,199 +1438,51 @@
     <!--Client End-->
 
     <!--Map Start-->
-    <div class="p-0 gradient-bg2 map-area">
+    <div class="p-0 gradient-bg1 map-area">
       <div class="container">
         <!--Map Initialize-->
-        <div class="full-map" id="map"></div>
+        <iframe
+          class="gmap"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.7426452805807!2d106.91020027791619!3d-6.165209185835673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698bd94504070b%3A0xb485057b8b5fb7e0!2sSTEM%20Institution!5e0!3m2!1sid!2sid!4v1703881242869!5m2!1sid!2sid"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <!-- <div class="full-map" id="map"></div> -->
       </div>
     </div>
     <!--Map End-->
 
-    <!--Contact Start-->
-    <section class="contact-us" id="contact">
-      <div class="container">
-        <div class="row align-items-top">
-          <div class="col-lg-5 order-lg-2 wow fadeInRight">
-            <div class="contact-detail">
-              <div class="contact-dots" data-dots=""></div>
-              <!--Heading-->
-              <div class="heading-area pb-5">
-                <h2 class="title mt-0 pb-1">Our Location</h2>
-                <p class="para">
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered .
-                </p>
-              </div>
-
-              <!--Address-->
-              <ul class="address list-unstyled">
-                <li>
-                  <span class="address-icon gradient-text2"
-                    ><i aria-hidden="true" class="fas fa-map-marker-alt"></i
-                  ></span>
-                  <span class="address-text"
-                    >123 Park Avenue, New York,United States</span
-                  >
-                </li>
-                <li>
-                  <span class="address-icon gradient-text2"
-                    ><i aria-hidden="true" class="fas fa-phone-volume"></i
-                  ></span>
-                  <span class="address-text"
-                    ><a class="mr-3" href="javascript:void(0)"
-                      >+1 631 1234 5678</a
-                    ><a href="javascript:void(0)">+1 631 1234 5678</a></span
-                  >
-                </li>
-                <li>
-                  <span class="address-icon gradient-text2"
-                    ><i aria-hidden="true" class="fas fa-paper-plane"></i
-                  ></span>
-                  <span class="address-text"
-                    ><a class="mr-3 alt-color" href="javascript:void(0)"
-                      >email@website.com</a
-                    ><a class="mr-3 alt-color" href="javascript:void(0)"
-                      >abc@website.com</a
-                    ></span
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="col-lg-7 mt-4 pt-3 mt-lg-0 pt-lg-0 wow fadeInLeft">
-            <!--Heading-->
-            <div class="heading-area pb-2">
-              <h2 class="title mt-0">Get In Touch</h2>
-            </div>
-            <!--Contact Form-->
-            <form class="contact-form" id="contact-form-data">
-              <div class="row">
-                <!--Result-->
-                <div class="col-12" id="result"></div>
-
-                <!--Left Column-->
-                <div class="col-md-5">
-                  <div class="form-group">
-                    <input
-                      class="form-control"
-                      id="your_name"
-                      name="userName"
-                      placeholder="Name"
-                      required=""
-                      type="text"
-                    />
-                  </div>
-                  <div class="form-group">
-                    <input
-                      class="form-control"
-                      id="your_email"
-                      name="userEmail"
-                      placeholder="Email"
-                      required=""
-                      type="email"
-                    />
-                  </div>
-                  <div class="form-group">
-                    <input
-                      class="form-control"
-                      id="subject"
-                      name="userSubject"
-                      placeholder="Subject"
-                      required=""
-                      type="text"
-                    />
-                  </div>
-                </div>
-
-                <!--Right Column-->
-                <div class="col-md-7">
-                  <div class="form-group">
-                    <textarea
-                      class="form-control"
-                      id="message"
-                      name="userMessage"
-                      placeholder="Message"
-                    ></textarea>
-                  </div>
-                </div>
-
-                <!--Button-->
-                <div class="col-md-12">
-                  <a
-                    class="btn btn-large btn-rounded btn-purple btn-hvr-blue d-block mt-4 contact_btn"
-                    href="javascript:void(0);"
-                    id="submit_btn"
-                    ><i
-                      class="fa fa-spinner fa-spin mr-2 d-none"
-                      aria-hidden="true"
-                    ></i
-                    ><b>Send Message</b>
-                    <div class="btn-hvr-setting">
-                      <ul class="btn-hvr-setting-inner">
-                        <li class="btn-hvr-effect"></li>
-                        <li class="btn-hvr-effect"></li>
-                        <li class="btn-hvr-effect"></li>
-                        <li class="btn-hvr-effect"></li>
-                      </ul>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--Contact End-->
-
     <!--Footer Start-->
-    <footer class="footer-style-1 bg-light">
-      <div class="container">
+    <footer class="footer-style-1 bg-light" style="">
+      <div class="">
         <div class="row align-items-center">
           <!--Social-->
-          <div class="col-md-6">
+          <div class="col-md-4">
             <div class="footer-social">
-              <ul class="list-unstyled">
-                <li>
-                  <a class="wow fadeInUp" href="javascript:void(0);"
-                    ><i aria-hidden="true" class="fab fa-facebook-f"></i
-                  ></a>
-                </li>
-                <li>
-                  <a class="wow fadeInDown" href="javascript:void(0);"
-                    ><i aria-hidden="true" class="fab fa-twitter"></i
-                  ></a>
-                </li>
-                <li>
-                  <a class="wow fadeInUp" href="javascript:void(0);"
-                    ><i aria-hidden="true" class="fab fa-google-plus-g"></i
-                  ></a>
-                </li>
-                <li>
-                  <a class="wow fadeInDown" href="javascript:void(0);"
-                    ><i aria-hidden="true" class="fab fa-linkedin-in"></i
-                  ></a>
-                </li>
-                <li>
-                  <a class="wow fadeInUp" href="javascript:void(0);"
-                    ><i aria-hidden="true" class="fab fa-instagram"></i
-                  ></a>
-                </li>
-                <li>
-                  <a class="wow fadeInDown" href="javascript:void(0);"
-                    ><i aria-hidden="true" class="fab fa-pinterest-p"></i
-                  ></a>
-                </li>
-              </ul>
+              <img
+                alt="vektor"
+                src="../agency/img/elemen program kanan atas.png"
+              />
             </div>
           </div>
           <!--Text-->
-          <div class="col-md-6 text-md-right">
+          <div class="col-md-4 text-center">
             <p class="company-about fadeIn">
-              © 2020 MegaOne. Made With Love By
-              <a href="javascript:void(0);">Themesindustry</a>
+              © 2023 matatalab
+              <a href="../index-agency.html">stem education</a>
             </p>
+          </div>
+          <div class="col-md-4 pl-5">
+            <div class="footer-social">
+              <img
+                alt="vektor"
+                src="../agency/img/element program kiri atas.png"
+              />
+            </div>
           </div>
         </div>
       </div>

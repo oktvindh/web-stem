@@ -917,7 +917,8 @@ blockquote > cite {
     padding: 0px;
   }
   .header-area .logo {
-    margin-top: 27px !important;
+    align-items: center;
+    /* margin-top: 27px !important; */
     margin-left: 30px;
   }
   .header-area .menu-trigger {
