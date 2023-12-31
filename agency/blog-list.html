@@ -8,7 +8,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <!-- Page Title -->
-    <title>STEM INSTITUTION</title>
+    <title>MegaOne - Agency</title>
     <!-- Favicon -->
     <link rel="icon" href="img/favicon.ico" />
     <!-- Bundle -->
@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="../vendor/css/swiper.min.css" />
     <link rel="stylesheet" href="../vendor/css/cubeportfolio.min.css" />
     <!-- Style Sheet -->
-    <link rel="stylesheet" href="../agency/css/style-blog.css" />
+    <link rel="stylesheet" href="../agency/css/style.css" />
   </head>
 
   <body data-spy="scroll" data-target=".navbar" data-offset="90">
@@ -35,232 +35,39 @@
     </div>
     <!--/Preloader -->
 
-    <!--Header Start-->
-    <header class="cursor-light">
-      <!--Navigation-->
-      <nav
-        class="navbar navbar-top-default navbar-expand-lg navbar-gradient nav-icon alt-font"
-      >
-        <div class="container">
-          <a class="logo link scroll" href="javascript:void(0)" title="Logo">
-            <!--Logo Default-->
-            <img
-              alt="logo"
-              class="logo-dark default"
-              src="./img/LOGOSTEM.png"
-            />
-          </a>
-
-          <!--Nav Links-->
-          <div class="collapse navbar-collapse" id="agency">
-            <div class="navbar-nav ml-auto">
-              <a class="nav-link" href="../index.html">Home</a>
-              <a class="nav-link" href="./about.html">About Us</a>
-              <a class="nav-link" href="./stem junior.html">Program</a>
-              <!-- <a class="nav-link link scroll" href="#clients">Clients</a> -->
-              <a class="nav-link active" href="#blog">Our Blog</a>
-              <a class="nav-link" href="./contact.html">Contact Us</a>
-              <span class="menu-line"
-                ><i aria-hidden="true" class="fa fa-angle-down"></i
-              ></span>
-            </div>
-          </div>
-
-          <!--Menu Button-->
-          <button
-            class="fullnav-toggler link ml-5"
-            id="full-menu-1"
-            type="button"
-          >
-            <span class="line"></span>
-            <span class="line"></span>
-            <span class="line"></span>
-          </button>
-        </div>
-      </nav>
-
-      <!--Full menu-->
-      <div class="nav-holder main style-2 alt-font">
-        <!--Menu Button-->
-        <button class="fullnav-close link" type="button">
-          <span class="line"></span>
-          <span class="line"></span>
-          <span class="line"></span>
-        </button>
-
-        <div class="container">
-          <div class="shape-left">
-            <nav class="navbar full-menu-navigation left">
-              <ul class="list-unstyled">
-                <li>
-                  <a class="link scroll" href="#home">
-                    <span class="anchor-circle"></span>
-                    <span class="anchor-text">Home</span>
-                  </a>
-                </li>
-                <li>
-                  <a class="link scroll" href="#about-us">
-                    <span class="anchor-circle"></span>
-                    <span class="anchor-text">About</span>
-                  </a>
-                </li>
-                <li>
-                  <a class="link scroll" href="#Program">
-                    <span class="anchor-circle"></span>
-                    <span class="anchor-text">Program</span>
-                  </a>
-                </li>
-
-                <li>
-                  <a class="link scroll" href="#blog">
-                    <span class="anchor-circle"></span>
-                    <span class="anchor-text">Blog</span>
-                  </a>
-                </li>
-                <li>
-                  <a class="link scroll" href="#contact">
-                    <span class="anchor-circle"></span>
-                    <span class="anchor-text">Contact</span>
-                  </a>
-                </li>
-              </ul>
-              <span class="full-menu-dot" style="transform: scale(0)"></span>
-            </nav>
-            <img alt="shape" src="agency/img/Ellipse 4.png" />
-          </div>
-        </div>
-      </div>
-
-      <!--Get Quote Model Popup-->
-      <div class="animated-modal hidden quote-content" id="animatedModal">
-        <!--Heading-->
-        <div class="heading-area pb-2 mx-570">
-          <span class="sub-title">We are revolusioner</span>
-          <h2 class="title mt-2">
-            Lets start your
-            <span class="alt-color js-rotating">journey, learning</span>
-          </h2>
-        </div>
-        <!--Contact Form-->
-        <form class="contact-form" id="modal-contact-form-data">
-          <div class="row">
-            <!--Result-->
-            <div class="col-12" id="quote_result"></div>
-
-            <!--Left Column-->
-            <div class="col-md-6">
-              <div class="form-group">
-                <input
-                  class="form-control"
-                  id="quote_name"
-                  name="quoteName"
-                  placeholder="Name"
-                  required=""
-                  type="text"
-                />
-              </div>
-              <div class="form-group">
-                <input
-                  class="form-control"
-                  id="quote_contact"
-                  name="userPhone"
-                  placeholder="Contact #"
-                  required=""
-                  type="text"
-                />
-              </div>
-              <div class="form-group">
-                <input
-                  class="form-control"
-                  id="quote_type"
-                  name="projectType"
-                  placeholder="Project type"
-                  required=""
-                  type="text"
-                />
-              </div>
-            </div>
-
-            <!--Right Column-->
-            <div class="col-md-6">
-              <div class="form-group">
-                <input
-                  class="form-control"
-                  id="quote_email"
-                  name="userEmail"
-                  placeholder="Email"
-                  required=""
-                  type="email"
-                />
-              </div>
-              <div class="form-group">
-                <input
-                  class="form-control"
-                  id="quote_address"
-                  name="userAddress"
-                  placeholder="City / Country"
-                  required=""
-                  type="text"
-                />
-              </div>
-              <div class="form-group">
-                <input
-                  class="form-control"
-                  id="quote_budget"
-                  name="quoteBudget"
-                  placeholder="Budget"
-                  required=""
-                  type="text"
-                />
-              </div>
-            </div>
-
-            <!--Full Column-->
-            <div class="col-md-12">
-              <div class="form-group">
-                <textarea
-                  class="form-control"
-                  id="quote_message"
-                  name="userMessage"
-                  placeholder="Please explain your project in detail."
-                ></textarea>
-              </div>
-            </div>
-
-            <!--Button-->
-            <div class="col-md-12">
-              <div class="form-check">
-                <label class="checkbox-lable"
-                  >Contact by phone ins preffered
-                  <input type="checkbox" />
-                  <span class="checkmark"></span>
-                </label>
-              </div>
-
-              <a
-                class="btn btn-large btn-rounded btn-blue btn-hvr-pink modal_contact_btn"
-                href="javascript:void(0);"
-                id="quote_submit_btn"
-                ><i
-                  class="fa fa-spinner fa-spin mr-2 d-none"
-                  aria-hidden="true"
-                ></i
-                ><b>Send Message</b>
-                <div class="btn-hvr-setting">
-                  <ul class="btn-hvr-setting-inner">
-                    <li class="btn-hvr-effect"></li>
-                    <li class="btn-hvr-effect"></li>
-                    <li class="btn-hvr-effect"></li>
-                    <li class="btn-hvr-effect"></li>
-                  </ul>
-                </div>
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="main-nav">
+              <!-- ***** Logo Start ***** -->
+              <a href="#" class="logo">
+                <img src="../agency/img/logo.png" alt="STEM INSTITUTION" />
               </a>
-            </div>
+              <!-- ***** Logo End ***** -->
+              <!-- ***** Menu Start ***** -->
+              <ul class="nav">
+                <li>
+                  <a href="..//index.html" class="active">Home</a>
+                </li>
+                <li><a href="#about">About</a></li>
+                <li>
+                  <a href="#">Programmes</a>
+                </li>
+                <li><a href="#blog">Blog Entries</a></li>
+                <li><a href="#contact-us">Contact Us</a></li>
+              </ul>
+              <a class="menu-trigger">
+                <span>Menu</span>
+              </a>
+              <!-- ***** Menu End ***** -->
+            </nav>
           </div>
-        </form>
+        </div>
       </div>
     </header>
-    <!--Header End-->
+    <!-- ***** Header Area End ***** -->
 
     <!--Banner Start-->
     <section class="page-title cursor-light">
@@ -290,11 +97,17 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="center-heading">
-              <h2 class="section-title">Our Blog</h2>
+              <h2 class="section-title">Blog</h2>
             </div>
           </div>
           <div class="offset-lg-3 col-lg-6">
-            <div class="center-text mb-5"></div>
+            <div class="center-text mb-5">
+              <p>
+                Integer molestie aliquam gravida. Nullam nec arcu finibus,
+                imperdiet nulla vitae, placerat nibh. Cras maximus venenatis
+                molestie.
+              </p>
+            </div>
           </div>
         </div>
         <!-- ***** Section Title End ***** -->
@@ -307,17 +120,14 @@
               </div>
               <div class="blog-content">
                 <h3>
-                  <a href="#"
-                    >Bahasa Pemrograman Untuk Mengawali Anak Masuk
-                    DuniaPemrograman</a
-                  >
+                  <a href="#">Vivamus ac vehicula dui</a>
                 </h3>
                 <div class="text">
                   Cras aliquet ligula dui, vitae fermentum velit tincidunt id.
                   Praesent eu finibus nunc. Nulla in sagittis eros. Aliquam
                   egestas augue.
                 </div>
-                <a href="blog-details-1.html" class="main-button">Read More</a>
+                <a href="blog-details.html" class="main-button">Read More</a>
               </div>
             </div>
           </div>
@@ -328,17 +138,14 @@
               </div>
               <div class="blog-content">
                 <h3>
-                  <a href="#"
-                    >Bahasa Pemrograman Untuk Mengawali Anak Masuk
-                    DuniaPemrograman</a
-                  >
+                  <a href="#">Phasellus convallis augue</a>
                 </h3>
                 <div class="text">
                   Aliquam commodo ornare nisl, et scelerisque nisl dignissim ac.
                   Vestibulum finibus urna ut velit venenatis, vel ultrices
                   sapien mattis.
                 </div>
-                <a href="blog-details-1.html" class="main-button">Read More</a>
+                <a href="blog-details.html" class="main-button">Read More</a>
               </div>
             </div>
           </div>
@@ -349,16 +156,14 @@
               </div>
               <div class="blog-content">
                 <h3>
-                  <a href="#"
-                    >Masa Depan Kecerdasan Buatan (AI) dan Pendidikan STEAM</a
-                  >
+                  <a href="#">Nam gravida purus non</a>
                 </h3>
                 <div class="text">
                   Maecenas eu erat vitae dui convallis consequat vel gravida
                   nulla. Vestibulum finibus euismod odio, ut tempus enim varius
                   eu.
                 </div>
-                <a href="blog-details-2.html" class="main-button">Read More</a>
+                <a href="blog-details.html" class="main-button">Read More</a>
               </div>
             </div>
           </div>
@@ -369,16 +174,14 @@
               </div>
               <div class="blog-content">
                 <h3>
-                  <a href="#"
-                    >Masa Depan Kecerdasan Buatan (AI) dan Pendidikan STEAM</a
-                  >
+                  <a href="#">Nam gravida purus non</a>
                 </h3>
                 <div class="text">
                   Maecenas eu erat vitae dui convallis consequat vel gravida
                   nulla. Vestibulum finibus euismod odio, ut tempus enim varius
                   eu.
                 </div>
-                <a href="blog-details-2.html" class="main-button">Read More</a>
+                <a href="blog-details.html" class="main-button">Read More</a>
               </div>
             </div>
           </div>
@@ -389,17 +192,14 @@
               </div>
               <div class="blog-content">
                 <h3>
-                  <a href="#"
-                    >Transformasi Pendidikan STEM melalui Teknologi: Membuka
-                    Pintu Ke Masa Depan yang Cerah</a
-                  >
+                  <a href="#">Nam gravida purus non</a>
                 </h3>
                 <div class="text">
                   Maecenas eu erat vitae dui convallis consequat vel gravida
                   nulla. Vestibulum finibus euismod odio, ut tempus enim varius
                   eu.
                 </div>
-                <a href="blog-details-3.html" class="main-button">Read More</a>
+                <a href="blog-details.html" class="main-button">Read More</a>
               </div>
             </div>
           </div>
@@ -410,17 +210,14 @@
               </div>
               <div class="blog-content">
                 <h3>
-                  <a href="#"
-                    >Transformasi Pendidikan STEM melalui Teknologi: Membuka
-                    Pintu Ke Masa Depan yang Cerah</a
-                  >
+                  <a href="#">Nam gravida purus non</a>
                 </h3>
                 <div class="text">
                   Maecenas eu erat vitae dui convallis consequat vel gravida
                   nulla. Vestibulum finibus euismod odio, ut tempus enim varius
                   eu.
                 </div>
-                <a href="blog-details-3.html" class="main-button">Read More</a>
+                <a href="blog-details.html" class="main-button">Read More</a>
               </div>
             </div>
           </div>
@@ -429,27 +226,53 @@
     </section>
     <!-- ***** Blog End ***** -->
 
-    <!-- ***** Footer Start ***** -->
-    <footer>
+    <!--Footer Start-->
+    <footer class="footer-style-1 bg-light">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12">
-            <ul class="social">
-              <li>
-                <a href="#"><i class="fa fa-facebook"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-              </li>
-              <li>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
-              </li>
-            </ul>
+        <div class="row align-items-center">
+          <!--Social-->
+          <div class="col-md-6">
+            <div class="footer-social">
+              <ul class="list-unstyled">
+                <li>
+                  <a class="wow fadeInUp" href="javascript:void(0);"
+                    ><i class="fab fa-facebook-f" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="wow fadeInDown" href="javascript:void(0);"
+                    ><i class="fab fa-twitter" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="wow fadeInUp" href="javascript:void(0);"
+                    ><i class="fab fa-google-plus-g" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="wow fadeInDown" href="javascript:void(0);"
+                    ><i class="fab fa-linkedin-in" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="wow fadeInUp" href="javascript:void(0);"
+                    ><i class="fab fa-instagram" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="wow fadeInDown" href="javascript:void(0);"
+                    ><i class="fab fa-pinterest-p" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12 mb-5">
-            <p class="copyright">Copyright &copy; STEM INSTITUTION 2023</p>
+          <!--Text-->
+          <div class="col-md-6 text-md-right">
+            <p class="company-about fadeIn">
+              © 2023
+              <a href="javascript:void(0);">STEM INSTITUTION</a>
+            </p>
           </div>
         </div>
       </div>

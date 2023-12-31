@@ -500,7 +500,4 @@ function dotCanvas(){
                     }
                 });
 
-
-
-
 });
