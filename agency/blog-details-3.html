@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Page Title -->
+    <title>STEM INSTITUTION</title>
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.ico" />
+    <!-- Bundle -->
+    <link rel="stylesheet" href="../vendor/css/bundle.min.css" />
+    <link rel="stylesheet" href="../vendor/css/revolution-settings.min.css" />
+    <!-- Plugin Css -->
+    <link rel="stylesheet" href="../vendor/css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="../vendor/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="../vendor/css/swiper.min.css" />
+    <link rel="stylesheet" href="../vendor/css/cubeportfolio.min.css" />
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="../agency/css/style-blog.css" />
+  </head>
+
+  <body data-spy="scroll" data-target=".navbar" data-offset="90">
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="box"></div>
+    </div>
+
+    <!-- Ink Transition -->
+    <div class="cd-transition-layer visible opening">
+      <div class="bg-layer"></div>
+    </div>
+    <!--/Preloader -->
+
+    <!--Header Start-->
+    <header class="cursor-light">
+      <!--Navigation-->
+      <nav
+        class="navbar navbar-top-default navbar-expand-lg navbar-gradient nav-icon alt-font"
+      >
+        <div class="container">
+          <a class="logo link scroll" href="javascript:void(0)" title="Logo">
+            <!--Logo Default-->
+            <img alt="logo" class="logo-dark default" src="./img/LOGOSTEM.png" />
+          </a>
+
+         <!--Nav Links-->
+          <div class="collapse navbar-collapse" id="agency">
+            <div class="navbar-nav ml-auto">
+              <a class="nav-link" href="../index.html"
+                >Home</a
+              >
+              <a class="nav-link" href="./about.html">About Us</a>
+              <a class="nav-link" href="./stem adventures.html">Program</a>
+              <!-- <a class="nav-link link scroll" href="#clients">Clients</a> -->
+              <a class="nav-link active" href="./blog-list.html">Our Blog</a>
+              <a class="nav-link" href="./contact.html">Contact Us</a>
+              <span class="menu-line"
+                ><i aria-hidden="true" class="fa fa-angle-down"></i
+              ></span>
+            </div>
+          </div>
+
+          <!--Menu Button-->
+          <button
+            class="fullnav-toggler link ml-5"
+            id="full-menu-1"
+            type="button"
+          >
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </button>
+        </div>
+      </nav>
+
+      <!--Full menu-->
+      <div class="nav-holder main style-2 alt-font">
+        <!--Menu Button-->
+        <button class="fullnav-close link" type="button">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+
+        <div class="container">
+          <div class="shape-left">
+            <nav class="navbar full-menu-navigation left">
+              <ul class="list-unstyled">
+                <li>
+                  <a class="link " href="../index.html">
+                    <span class="anchor-circle"></span>
+                    <span class="anchor-text">Home</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="link " href="./about.html">
+                    <span class="anchor-circle"></span>
+                    <span class="anchor-text">About</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="link " href="./stem innovators.html">
+                    <span class="anchor-circle"></span>
+                    <span class="anchor-text">Program</span>
+                  </a>
+                </li>
+
+                <li>
+                  <a class="link " href="./blog-list.html">
+                    <span class="anchor-circle"></span>
+                    <span class="anchor-text">Blog</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="link " href="./contact.html">
+                    <span class="anchor-circle"></span>
+                    <span class="anchor-text">Contact</span>
+                  </a>
+                </li>
+              </ul>
+              <span class="full-menu-dot" style="transform: scale(0)"></span>
+            </nav>
+            <img alt="shape" src="agency/img/Ellipse 4.png" />
+          </div>
+          
+        </div>
+      </div>
+
+      <!--Get Quote Model Popup-->
+      <div class="animated-modal hidden quote-content" id="animatedModal">
+        <!--Heading-->
+        <div class="heading-area pb-2 mx-570">
+          <span class="sub-title">We are revolusioner</span>
+          <h2 class="title mt-2">
+            Lets start your
+            <span class="alt-color js-rotating">journey, learning</span>
+          </h2>
+        </div>
+        <!--Contact Form-->
+        <form class="contact-form" id="modal-contact-form-data">
+          <div class="row">
+            <!--Result-->
+            <div class="col-12" id="quote_result"></div>
+
+            <!--Left Column-->
+            <div class="col-md-6">
+              <div class="form-group">
+                <input
+                  class="form-control"
+                  id="quote_name"
+                  name="quoteName"
+                  placeholder="Name"
+                  required=""
+                  type="text"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  class="form-control"
+                  id="quote_contact"
+                  name="userPhone"
+                  placeholder="Contact #"
+                  required=""
+                  type="text"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  class="form-control"
+                  id="quote_type"
+                  name="projectType"
+                  placeholder="Project type"
+                  required=""
+                  type="text"
+                />
+              </div>
+            </div>
+
+            <!--Right Column-->
+            <div class="col-md-6">
+              <div class="form-group">
+                <input
+                  class="form-control"
+                  id="quote_email"
+                  name="userEmail"
+                  placeholder="Email"
+                  required=""
+                  type="email"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  class="form-control"
+                  id="quote_address"
+                  name="userAddress"
+                  placeholder="City / Country"
+                  required=""
+                  type="text"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  class="form-control"
+                  id="quote_budget"
+                  name="quoteBudget"
+                  placeholder="Budget"
+                  required=""
+                  type="text"
+                />
+              </div>
+            </div>
+
+            <!--Full Column-->
+            <div class="col-md-12">
+              <div class="form-group">
+                <textarea
+                  class="form-control"
+                  id="quote_message"
+                  name="userMessage"
+                  placeholder="Please explain your project in detail."
+                ></textarea>
+              </div>
+            </div>
+
+            <!--Button-->
+            <div class="col-md-12">
+              <div class="form-check">
+                <label class="checkbox-lable"
+                  >Contact by phone ins preffered
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+
+              <a
+                class="btn btn-large btn-rounded btn-blue btn-hvr-pink modal_contact_btn"
+                href="javascript:void(0);"
+                id="quote_submit_btn"
+                ><i
+                  class="fa fa-spinner fa-spin mr-2 d-none"
+                  aria-hidden="true"
+                ></i
+                ><b>Send Message</b>
+                <div class="btn-hvr-setting">
+                  <ul class="btn-hvr-setting-inner">
+                    <li class="btn-hvr-effect"></li>
+                    <li class="btn-hvr-effect"></li>
+                    <li class="btn-hvr-effect"></li>
+                    <li class="btn-hvr-effect"></li>
+                  </ul>
+                </div>
+              </a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </header>
+    <!--Header End-->
+
+    <!--Banner Start-->
+    <section class="page-title cursor-light">
+      <!-- Pattern Layers -->
+      <div class="pattern-layers">
+        <div class="layer-one"></div>
+        <div class="layer-two"></div>
+      </div>
+      <div class="auto-container">
+        <h2 class="hide-cursor">Latest News</h2>
+        <ul class="page-breadcrumb link">
+          <li>
+            <a href="javascript:void(0);"
+              ><span class="icon fas fa-home"></span> home</a
+            >
+          </li>
+          <li>Latest News</li>
+        </ul>
+      </div>
+    </section>
+    <!--Banner End-->
+
+    <!--Blog Start-->
+    <section class="blog-single">
+      <h2 class="d-none">hidden</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <!--Post-->
+            <article class="blog-classic">
+              <!--Thumbnail-->
+              <div class="post-thumbnail">
+                <img src="img/blog-item-03.jpg" alt="image" />
+              </div>
+              <!--Post Meta-->
+              <div class="post-details alt-font">
+                <span class="post-author"
+                  >By <a href="javascript:void(0);">STEM Institution</a></span
+                >
+                <span class="post-separator">/</span>
+                <span class="post-date">On October 6, 2023</span>
+              </div>
+
+              <h2 class="post-title">
+                <a href="javascript:void(0);" rel="bookmark"
+                  >Transformasi Pendidikan STEM melalui Teknologi: Membuka Pintu Ke Masa Depan yang Cerah</a
+                >
+              </h2>
+
+              <div class="post-content">
+                <p class="mb-5">
+                 Pendidikan STEM (Sains, Teknologi, Rekayasa, Seni, dan Matematika) memasuki era baru dengan kedatangan teknologi yang inovatif. Kemajuan dalam teknologi tidak hanya merubah cara kita belajar, tetapi juga membentuk masa depan siswa dengan cara yang belum pernah terjadi sebelumnya. Dalam artikel ini, kita akan menjelajahi bagaimana teknologi telah merintis jalan untuk menghadirkan revolusi dalam dunia pendidikan STEM.
+
+                </p>
+
+                <p>
+                  <h5>1. Pembelajaran Interaktif Berbasis Aplikasi dan Perangkat Lunak</h5>
+                    Perangkat lunak dan aplikasi pendidikan yang inovatif telah merubah cara guru menyampaikan materi dan siswa menerima informasi. Aplikasi pembelajaran interaktif memungkinkan siswa untuk menjelajahi konsep-konsep STEM melalui simulasi, animasi, dan permainan pendidikan. Dengan menyajikan materi secara visual dan dinamis, aplikasi ini membuat pembelajaran lebih menarik dan mudah dipahami.
+                  <br /><br />
+                  <h5>2. Realitas Virtual dan Augmented Reality dalam Pembelajaran</h5>
+                  Teknologi realitas virtual (VR) dan augmented reality (AR) membawa pengalaman pembelajaran ke tingkat baru. Siswa tidak hanya membaca tentang konsep-konsep abstrak, tetapi mereka dapat mengalami dan menyelami materi tersebut secara langsung. Misalnya, eksplorasi dunia mikroskopis melalui VR atau manipulasi model 3D melalui AR memberikan pengalaman belajar yang mendalam dan tak terlupakan.<br><br>
+                  <h5>3. Laboratorium Virtual dan Simulasi</h5>
+                  Laboratorium virtual dan simulasi yang didukung teknologi mengatasi kendala akses terhadap peralatan mahal di dunia nyata. Siswa dapat melakukan eksperimen tanpa risiko, mengamati reaksi kimia, atau merancang struktur teknik, semuanya melalui lingkungan virtual yang aman. Ini tidak hanya menghemat biaya, tetapi juga membuka peluang bagi eksplorasi tanpa batas.<br><br>
+                  <h5>4. Kecerdasan Buatan (AI) untuk Pembelajaran Personalisasi</h5>
+                 Kecerdasan Buatan telah memperkenalkan era pembelajaran yang dipersonalisasi. Sistem AI dapat menganalisis gaya belajar dan kemampuan siswa untuk menyajikan materi dengan cara yang sesuai. Ini tidak hanya meningkatkan pemahaman siswa terhadap konsep-konsep STEM, tetapi juga memastikan bahwa setiap siswa dapat belajar dengan kecepatan mereka sendiri.<br><br>
+                  <h5>5. Pembelajaran Jarak Jauh dan Kolaborasi Online</h5>
+                  Teknologi telah membuka pintu untuk pendidikan STEM jarak jauh. Siswa dan guru dapat terhubung dari berbagai lokasi, berbagi pengetahuan, dan berkolaborasi pada proyek-proyek STEM. Ini tidak hanya memperluas aksesibilitas pendidikan, tetapi juga mempersiapkan siswa untuk bekerja dalam lingkungan global yang terhubung.<br><br>
+                    <h5>6. Robotika Pendidikan</h5>
+                  Robotika pendidikan tidak hanya mengajarkan keterampilan teknis, tetapi juga membangun pemahaman konseptual. Siswa dapat merancang, memprogram, dan berinteraksi dengan robot, memungkinkan mereka mengaplikasikan konsep-konsep STEM dalam konteks yang nyata.<br><br>
+                   <h5>7. Penggunaan Big Data untuk Peningkatan Pendidikan</h5>
+                  Analisis Big Data dalam pendidikan STEM membantu mendapatkan wawasan yang mendalam tentang kemajuan siswa. Dengan memahami pola pembelajaran dan tantangan yang dihadapi siswa, pendidik dapat merancang strategi pengajaran yang lebih efektif.<br><br>
+                    <h5>Kesimpulan</h5>
+                    Teknologi tidak hanya menjadi pendukung dalam pendidikan STEM; itu adalah kekuatan yang merubah paradigma. Dengan terus mengadopsi teknologi terkini, pendidikan STEM tidak hanya mengajarkan fakta dan konsep, tetapi juga keterampilan berpikir kritis, kreativitas, dan kemampuan untuk menyelesaikan masalah. Melalui teknologi, kita membuka pintu ke masa depan yang cerah, membentuk generasi yang siap menghadapi tantangan dan memanfaatkan peluang di dunia STEM yang terus berkembang.
+                </p>
+              </div>
+
+              <div class="footer-meta">
+                <div class="row">
+                  <div class="col-6"></div>
+
+                  <div class="col-6"></div>
+                </div>
+              </div>
+            </article>
+
+            <!--Author-->
+            <div class="agency-author">
+              <div class="author-avatar">
+                <img alt="image" src="img/author.jpg" class="avatar" />
+              </div>
+              <div class="author-content">
+                <span class="text-small">Written By</span>
+                <h6><a href="javascript:void(0);">STEM Institution</a></h6>
+                <div class="author-description">
+                  <p>
+                    Maecenas sit amet purus eget ipsum elementum venenatis.
+                    Aenean maximus urna magna, quis rutrum mi semper non.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="agency-widget" id="secondary" role="complementary">
+              <!--Search Form-->
+              <aside class="widget widget_search">
+                <form
+                  method="get"
+                  id="searchform"
+                  action="javascript:void(0);"
+                  role="search"
+                >
+                  <label class="sr-only" for="s">Search</label>
+                  <div class="input-group">
+                    <input
+                      class="field form-control"
+                      id="s"
+                      name="s"
+                      type="text"
+                      placeholder="Search …"
+                      value=""
+                    />
+                    <span class="input-group-append">
+                      <button
+                        class="submit btn-search"
+                        id="searchsubmit"
+                        name="submit"
+                        type="submit"
+                      >
+                        <i class="fas fa-search"></i>
+                      </button>
+                    </span>
+                  </div>
+                </form>
+              </aside>
+
+              <!--Categories-->
+              <aside class="widget latest_post_widget">
+                <h3 class="widget-title">Popular Post</h3>
+                <ul class="blog-latest-post">
+                  <!--Recent Post-->
+                  <li>
+                    <figure>
+                      <a href="javascript:void(0);">
+                        <img
+                          width="150"
+                          height="150"
+                          src="img/blog-item-03.jpg"
+                          class="attachment-thumbnail"
+                          alt="image"
+                        />
+                      </a>
+                    </figure>
+                    <div class="post-head">
+                      <a class="title" href="javascript:void(0);"
+                        >Transformasi Pendidikan STEM melalui Teknologi: Membuka Pintu Ke Masa Depan yang Cerah</a
+                      ><span class="clearfix"></span>October 6, 2023 | by
+                      <a href="javascript:void(0);">STEM Institution</a>
+                    </div>
+                  </li>
+                  <!--Recent Post-->
+                  <li>
+                    <figure>
+                      <a href="javascript:void(0);">
+                        <img
+                          width="150"
+                          height="150"
+                          src="img/blog-item-03.jpg"
+                          class="attachment-thumbnail"
+                          alt="image"
+                        />
+                      </a>
+                    </figure>
+                    <div class="post-head">
+                      <a class="title" href="javascript:void(0);"
+                        >Transformasi Pendidikan STEM melalui Teknologi: Membuka Pintu Ke Masa Depan yang Cerah</a
+                      ><span class="clearfix"></span>October 6, 2023 | by
+                      <a href="javascript:void(0);">STEM Institution</a>
+                    </div>
+                  </li>
+                  <!--Recent Post-->
+                  <li>
+                    <figure>
+                      <a href="javascript:void(0);">
+                        <img
+                          width="150"
+                          height="150"
+                          src="img/blog-item-03.jpg"
+                          class="attachment-thumbnail"
+                          alt="image"
+                        />
+                      </a>
+                    </figure>
+                    <div class="post-head">
+                      <a class="title" href="javascript:void(0);"
+                        >Transformasi Pendidikan STEM melalui Teknologi: Membuka Pintu Ke Masa Depan yang Cerah</a
+                      ><span class="clearfix"></span>October 6, 2023 | by
+                      <a href="javascript:void(0);">STEM Institution</a>
+                    </div>
+                  </li>
+                </ul>
+              </aside>
+            </div>
+            <!-- #secondary -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Blog End-->
+
+    <!-- ***** Footer Start ***** -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <ul class="social">
+              <li>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 mb-5">
+            <p class="copyright">Copyright &copy; STEM INSTITUTION 2023</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--Footer End-->
+
+    <!--Animated Cursor-->
+    <div id="aimated-cursor">
+      <div id="cursor">
+        <div id="cursor-loader"></div>
+      </div>
+    </div>
+    <!--Animated Cursor End-->
+
+    <!--Top Start-->
+    <span class="scroll-top-arrow"><i class="fas fa-angle-up"></i></span>
+    <!--Top End-->
+
+    <!-- JavaScript -->
+    <script src="../vendor/js/bundle.min.js"></script>
+    <!-- Plugin Js -->
+    <script src="../vendor/js/jquery.appear.js"></script>
+    <script src="../vendor/js/jquery.fancybox.min.js"></script>
+    <script src="../vendor/js/owl.carousel.min.js"></script>
+    <script src="../vendor/js/swiper.min.js"></script>
+    <script src="../vendor/js/morphext.min.js"></script>
+    <script src="../vendor/js/TweenMax.min.js"></script>
+    <script src="../vendor/js/wow.min.js"></script>
+    <script src="../vendor/js/jquery.cubeportfolio.min.js"></script>
+    <!-- REVOLUTION JS FILES -->
+    <script src="../vendor/js/jquery.themepunch.tools.min.js"></script>
+    <script src="../vendor/js/jquery.themepunch.revolution.min.js"></script>
+    <!-- SLIDER REVOLUTION EXTENSIONS -->
+    <script src="../vendor/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="../vendor/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script src="../vendor/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="../vendor/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="../vendor/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="../vendor/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="../vendor/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="../vendor/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="../vendor/js/extensions/revolution.extension.video.min.js"></script>
+    <!-- custom script -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

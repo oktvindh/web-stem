@@ -721,7 +721,10 @@ a .icon-sosmed:hover {
 }
 
 .gmap {
-  margin-top: 1.2rem;
+  margin-top: -5rem;
+}
+
+.gmap-css {
   border-radius: 22px;
   border: 5px solid #51d7b8;
 }
