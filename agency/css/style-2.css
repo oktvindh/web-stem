@@ -1,0 +1,68 @@
+/* ===================================
+      STYLE PAGE STEM Adventures
+      , sebelumnya other page
+====================================== */
+
+.page-tittlea {
+  position: relative;
+  text-align: center;
+  padding: 230px 0px 130px;
+  background-color: #f1a325;
+}
+
+.page-tittlea .pattern-layers {
+  position: absolute;
+  content: "";
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.page-tittlea .pattern-layers .layer-one {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-image: url("../img/pattern-1.png");
+}
+
+.page-tittlea .pattern-layers .layer-two {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("");
+  /* Add the overlay using ::before pseudo-element */
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.page-tittlea .auto-container {
+  position: relative;
+}
+
+.page-tittlea h2 {
+  position: relative;
+  color: #ffffff;
+  font-weight: 800;
+  line-height: 1.2em;
+  margin-bottom: 10px;
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  -webkit-text-stroke: 1px #f1a325; /* For WebKit browsers like Chrome and Safari */
+  text-stroke: 1px #f1a325; /* Standard property */
+}
